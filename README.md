@@ -1,5 +1,5 @@
 # Serialport for NoFlo
-[![Build Status](https://secure.travis-ci.org/razueroh/noflo-serialport.png?branch=master)](http://travis-ci.org/razueroh/noflo-serialport)
+[![Build Status](https://secure.travis-ci.org/razueroh/noflo-serialport.png?branch=master)](http://travis-ci.org/razueroh/noflo-serialport) [![npm version](https://badge.fury.io/js/noflo-serialport.svg)](https://badge.fury.io/js/noflo-serialport)
 
 This package provides utility components to access serial ports in the NoFlo Node.js runtime. Based on [node-serialport](https://github.com/voodootikigod/node-serialport).
 
