@@ -38,6 +38,21 @@ Port | Name | Datatype | Description
 InPort | serialport | ```string``` | Serialport object
 OutPort | error | ```string``` | Message if an error occurs
 
+### Open
+
+Opens the serial port
+
+Port | Name | Datatype | Description
+-----|------|----------|-------------
+InPort | port | ```string``` | Port name or path
+InPort | baudrate | ```number``` | Baud Rate, defaults to `9600`
+InPort | databits | ```number``` | Data Bits, defaults to `8`. Must be one of: `5`, `6`, `7`, or `8`
+InPort | stopbits | ```number``` | Stop Bits, defaults to `1`. Must be one of: `1` or `2`
+InPort | parity | ```string``` | Parity, defaults to `'none'`. Must be one of: `'none'`, `'even'`, `'mark'`, `'odd'`, `'space'`
+InPort | buffersize | ```number``` | Size of read buffer, defaults to `255`. Must be an integer value
+InPort | parser | ```string``` | The parser engine to use with read data, defaults to `'raw'`
+OutPort | out | ```string``` | Serialport object
+
 ## Example
 
 Name | Gist | Flowhub
