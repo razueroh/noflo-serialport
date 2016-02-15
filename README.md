@@ -62,6 +62,17 @@ Port | Name | Datatype | Description
 InPort | serialport | ```string``` | Serialport object
 OutPort | out | ```object``` | Message. New data from the Serial Port
 
+### Write
+
+Writes data to the serial port
+
+Port | Name | Datatype | Description
+-----|------|----------|-------------
+InPort | serialport | ```string``` | Serialport object
+InPort | message | ```string``` | Message. New data to the Serial Port
+InPort | drain | ```boolean``` | Waits until all output data has been transmitted
+InPort | start | ```bang``` | Signal to write the message to the serial port
+
 ## Example
 
 Name | Gist | Flowhub
