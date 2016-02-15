@@ -29,6 +29,15 @@ InPort | serialport | ```string``` | Serialport object
 InPort | stop | ```bang``` | Signal to close the serial port
 OutPort | error | ```string``` | Message if an error occurs
 
+### Error
+
+Sends a message if an error occurs
+
+Port | Name | Datatype | Description
+-----|------|----------|-------------
+InPort | serialport | ```string``` | Serialport object
+OutPort | error | ```string``` | Message if an error occurs
+
 ## Example
 
 Name | Gist | Flowhub
