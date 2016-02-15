@@ -17,6 +17,18 @@ This package provides utility components to access serial ports in the NoFlo Nod
 - To open the serial port add a `serialport/Open` node and configure the port parameters. The output of the component is a serialport object
 - To write or read to the port add a `serialport/Write` and a `serialport/Read` nodes. The `serialport` input must be connected to the output of the `serialport/Open` node
 
+## Component usage
+
+### Close
+
+Close the serial port
+
+Port | Name | Datatype | Description
+-----|------|----------|-------------
+InPort | serialport | ```string``` | Serialport object
+InPort | stop | ```bang``` | Signal to close the serial port
+OutPort | error | ```string``` | Message if an error occurs
+
 ## Example
 
 Name | Gist | Flowhub
