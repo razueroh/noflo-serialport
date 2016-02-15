@@ -53,6 +53,15 @@ InPort | buffersize | ```number``` | Size of read buffer, defaults to `255`. Mus
 InPort | parser | ```string``` | The parser engine to use with read data, defaults to `'raw'`
 OutPort | out | ```string``` | Serialport object
 
+### Read
+
+Reads the serial port
+
+Port | Name | Datatype | Description
+-----|------|----------|-------------
+InPort | serialport | ```string``` | Serialport object
+OutPort | out | ```object``` | Message. New data from the Serial Port
+
 ## Example
 
 Name | Gist | Flowhub
