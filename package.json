@@ -20,8 +20,8 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "noflo": "~0.5.11",
-    "serialport": "^1.7.4"
+    "noflo": "~0.7.5",
+    "serialport": "^3.1.1"
   },
   "devDependencies": {
     "chai": "~2.0.0",
